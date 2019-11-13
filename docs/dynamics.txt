@@ -1,0 +1,9 @@
+Dynamic parts of the user interface:
+- username
+- task descriptions
+- number of task to complete
+- number of task completed
+- number of tasks shown as today depending on deadline
+- deadlines
+- may be color of background 
+- ...
