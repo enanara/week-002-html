@@ -3,25 +3,57 @@
         <title>~ToDo~</title>
     </head>
     <body>
-        <h1>My ToDo List</h1>
-        <form>
-            <input type="text" name="task-entry" value="Write you need to do..."/>
-            <button>Add</button>
-        </form>
-        <p>Things To Do : <span class="remainingTasks">3</span></p>
-        <table>
-            <tr>
-                <td>A First Task</td>
-                <td><button>Edit</button><button>Delete</button></td>
-            </tr>
-            <tr>
-                <td>A Second Task</td>
-                <td><button>Edit</button><button>Delete</button></td>
-            </tr>
-            <tr>
-                <td>A Third Task</td>
-                <td><button>Edit</button><button>Delete</button></td>
-            </tr>
-        </table>
+        <div>
+            <!--Settings or menu part with logged in info at right the right end-->
+        </div>
+        <div>
+            <h1>My ToDo List</h1>
+            <p>
+                <span class="Weekday">Monday, </span><span class="currentDate">18.11.2019</span>
+                <br>Good morning, Username. You have 
+                <span class="remainingTasks">3 tasks</span> Today.
+            </p>
+        </div>
+        <div>
+            <table>
+                <th>
+                    <td>Task description</td>
+                    <td>Options</td>
+                </th>
+                <tr>
+                    <td><button>Done</button></td>
+                    <td>A First Task</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>                
+                <tr>
+                    <td><button>Done</button></td>
+                    <td>A Second Task</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td><button>Done</button></td>
+                    <td>A Third Task</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Add new task here</p>
+            <form>
+                <input type="text" name="task-entry" value="New task..."/>
+                <input type="datetime-local">
+                <button>Add</button>
+            </form>
+        </div>
+        <div>
+            <p>You have <span class="completedTasks">1 task</span>complete.</p>
+            <table>
+                <tr>
+                    <td><button>UnDone</button></td>
+                    <td>Completed Task 1</td>
+                    <td><button>Delete</button></td>
+                </tr>                
+            </table>
+        </div>
     </body>
 </html>
