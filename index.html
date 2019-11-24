@@ -1,13 +1,41 @@
 <html>
     <head>
-        <title>~ToDo~</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>MyDay~MyWay</title>
     </head>
     <body>
-        <div>
-            <h1>My ToDo List</h1>
+        <header>
+            <div>
+            <button>Menu</button>
+            <span>Good morning </span>
+            <span>Ena</span>
+            </div>
+            <a>
+                <div>
+                    <time>25/11/2019, 21:49</time>
+                </div>
+            </a>
+        </header>
+        <div class="container">
+        <div id="lists">
+            <h3>My Lists</h3>
+            <ul>
+                <li>To Do...</li>
+                <li>To Read...</li>
+                <li>To Watch...</li>
+                <li>To attend...</li>
+                <li>Groceries</li>
+                <li>Bucket list</li>
+                <li>Goal set</li>
+                <li>Diary</li>
+                <li>+ Add list</li>
+            </ul>
+        </div>
+        <div class="tasks">
             <p>
-                <span class="Weekday">Monday, </span><span class="currentDate">18.11.2019</span>
-                <br><span>Goodmorning, </span><span>Username</span>. You have <span class="remainingTasks">2 tasks</span> Today.
+                You have 
+                <span class="remainingTasks">2 tasks</span> Today.
             </p>
             <table>
                 <tr>
@@ -40,6 +68,7 @@
                     <td><button>Delete</button></td>
                 </tr>                
             </table>
+        </div>
         </div>
     </body>
 </html>

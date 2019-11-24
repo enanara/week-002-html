@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(226, 202, 250);
+    margin-left:100px;
+    margin-right: 100px;
+}
+
+header {
+    background-color: rgb(36, 52, 117);
+    color: wheat;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    align-self: center;
+}
+header a {
+    float: right;
+}
+header div {
+    float: left;
+}
+#lists {
+    padding: 0.3em;
+    background-color: rgb(201, 163, 128);
+    margin: 0.5em;
+    width:25%;
+    border-radius: 5px 20px 20px 20px;
+}
+ul {
+    list-style: none;
+}
+.tasks {
+    width: 75%;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
